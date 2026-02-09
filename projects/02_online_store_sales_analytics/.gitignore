@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Tableau temp files
+~*.twbr
+~*.twb
+*.twbr
+
+# ===== Project-specific exclusions =====
+
+# Internal project inputs (not for portfolio)
+project inputs/
+
+# Generated/processed data (reproducible via scripts)
+data/processed/analytics_master_aggregated.csv
+data/processed/analytics_master_with_baseline_v2.csv
+data/processed/analytics_master_with_baseline.csv
+data/processed/bq-results-*.csv
+
+# Old/intermediate notebooks (final version is in notebooks/)
+/PortfolioProject1_final_version.ipynb
+/PortfolioProject1_final_version_ENG.ipynb
+cyrillic_cells_dump.json
+notebooks/PortfolioProject1.ipynb
+notebooks/PortfolioProject1.md
+notebooks/analytics_master_enriched.csv
+
+# Old Tableau workbook
+bi/TableauDashboardSales.twb
+
+# Intermediate BI documentation (superseded by final versions)
+bi/TABLEAU_IMPLEMENTATION_GUIDE_V2.md
+bi/NORMALIZATION_README.md
+bi/CHANGES_SUMMARY.md
+
+# Old/alternative scripts
+bi/scripts/calculate_baseline_metrics.py
+bi/scripts/calculate_baseline_metrics_v2.py
+bi/scripts/calculate_baseline_metrics_v2_normalized.py
+bi/scripts/RUN_SCRIPTS.md
+bi/scripts/run_all_scripts.bat
+
+# Intermediate screenshots (keep only final dashboard screenshots)
+bi/screenshots/Screenshot *.png
+bi/screenshots/step_*.png
+bi/screenshots/sheet_*.png
+bi/screenshots/Calculated Field *.png
+Screenshot 2026-02-09 193429.png
