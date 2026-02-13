@@ -1,0 +1,23 @@
+# Tableau
+*.hyper
+*.tde
+*.twbx
+*.tdsx
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+*.env
