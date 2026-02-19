@@ -1,241 +1,241 @@
 test_number,dimension,dimension_value,metric,numerator_event,denominator_event,numerator_control,denominator_control,conversion_rate_control,numerator_test,denominator_test,conversion_rate_test,metric_change,z_stat,p_value,significant
-1,Total,All,add_payment_info / session,add_payment_info,session,89,1552,0.0573453608,99,1603,0.0617592015,7.696945,0.5235898945,0.6005638117,False
-1,Total,All,add_shipping_info / session,add_shipping_info,session,137,1552,0.0882731959,117,1603,0.0729881472,-17.315617,-1.5775691473,0.1146646249,False
-1,Total,All,begin_checkout / session,begin_checkout,session,120,1552,0.0773195876,158,1603,0.0985651903,27.477646,2.1046943104,0.0353179261,True
-1,Total,All,new_accounts / session,new account,session,140,1552,0.0902061856,139,1603,0.0867124142,-3.873095,-0.3455494749,0.7296813225,False
-1,channel,Direct,add_payment_info / session,add_payment_info,session,5,358,0.0139664804,20,336,0.0595238095,326.190476,3.218593119,0.0012882114,True
-1,channel,Direct,add_shipping_info / session,add_shipping_info,session,31,358,0.0865921788,38,336,0.1130952381,30.606759,1.1660638774,0.2435886201,False
-1,channel,Direct,begin_checkout / session,begin_checkout,session,20,358,0.0558659218,30,336,0.0892857143,59.821429,1.701636139,0.0888235985,False
-1,channel,Direct,new_accounts / session,new account,session,33,358,0.0921787709,37,336,0.1101190476,19.462482,0.7842936679,0.4328678141,False
-1,channel,Organic Search,add_payment_info / session,add_payment_info,session,32,575,0.0556521739,30,598,0.0501672241,-9.855769,-0.4197138551,0.6746945023,False
-1,channel,Organic Search,add_shipping_info / session,add_shipping_info,session,46,575,0.08,22,598,0.0367892977,-54.013378,-3.1658421017,0.0015463471,True
-1,channel,Organic Search,begin_checkout / session,begin_checkout,session,56,575,0.0973913043,64,598,0.1070234114,9.89011,0.5441893162,0.5863112031,False
-1,channel,Organic Search,new_accounts / session,new account,session,48,575,0.0834782609,48,598,0.0802675585,-3.846154,-0.2005349606,0.8410622187,False
-1,channel,Paid Search,add_payment_info / session,add_payment_info,session,23,384,0.0598958333,23,414,0.0555555556,-7.246377,-0.2628433039,0.792671357,False
-1,channel,Paid Search,add_shipping_info / session,add_shipping_info,session,31,384,0.0807291667,29,414,0.0700483092,-13.230482,-0.5717017778,0.5675240298,False
-1,channel,Paid Search,begin_checkout / session,begin_checkout,session,35,384,0.0911458333,32,414,0.077294686,-15.196687,-0.7049476835,0.4808427943,False
-1,channel,Paid Search,new_accounts / session,new account,session,33,384,0.0859375,41,414,0.0990338164,15.23935,0.6372814029,0.5239415623,False
-1,channel,Social Search,add_payment_info / session,add_payment_info,session,12,133,0.0902255639,21,126,0.1666666667,84.722222,1.8440671406,0.065173356,False
-1,channel,Social Search,add_shipping_info / session,add_shipping_info,session,19,133,0.1428571429,8,126,0.0634920635,-55.555556,-2.0891256218,0.0366964165,True
-1,channel,Social Search,begin_checkout / session,begin_checkout,session,4,133,0.030075188,19,126,0.1507936508,401.388889,3.4136166825,0.000641067,True
-1,channel,Social Search,new_accounts / session,new account,session,14,133,0.1052631579,9,126,0.0714285714,-32.142857,-0.9567576169,0.3386896092,False
-1,channel,Undefined,add_payment_info / session,add_payment_info,session,17,102,0.1666666667,5,129,0.0387596899,-76.744186,-3.2885971904,0.0010068801,True
-1,channel,Undefined,add_shipping_info / session,add_shipping_info,session,10,102,0.0980392157,20,129,0.1550387597,58.139535,1.2797161661,0.200644977,False
-1,channel,Undefined,begin_checkout / session,begin_checkout,session,5,102,0.0490196078,13,129,0.1007751938,105.581395,1.457243432,0.1450491956,False
-1,channel,Undefined,new_accounts / session,new account,session,12,102,0.1176470588,4,129,0.0310077519,-73.643411,-2.5753524863,0.0100137978,True
-1,continent,(not set),add_payment_info / session,add_payment_info,session,0,12,0.0,7,20,0.35,0.0,2.3186202794,0.0204156345,True
-1,continent,(not set),add_shipping_info / session,add_shipping_info,session,0,12,0.0,3,20,0.15,0.0,1.4093285268,0.1587380474,False
-1,continent,(not set),begin_checkout / session,begin_checkout,session,0,12,0.0,2,20,0.1,0.0,1.1313708499,0.2578990353,False
-1,continent,(not set),new_accounts / session,new account,session,1,12,0.0833333333,1,20,0.05,-40.0,-0.3771236166,0.7060817412,False
-1,continent,Africa,add_payment_info / session,add_payment_info,session,0,93,0.0,11,84,0.130952381,0.0,3.6035517476,0.0003138982,True
-1,continent,Africa,add_shipping_info / session,add_shipping_info,session,10,93,0.1075268817,7,84,0.0833333333,-22.5,-0.5454850695,0.5854199465,False
-1,continent,Africa,begin_checkout / session,begin_checkout,session,7,93,0.0752688172,6,84,0.0714285714,-5.102041,-0.0977987199,0.9220921239,False
-1,continent,Africa,new_accounts / session,new account,session,7,93,0.0752688172,4,84,0.0476190476,-36.734694,-0.7608672312,0.4467363728,False
-1,continent,Americas,add_payment_info / session,add_payment_info,session,34,779,0.0436456996,61,803,0.0759651308,74.04952,2.7050553896,0.0068293001,True
-1,continent,Americas,add_shipping_info / session,add_shipping_info,session,63,779,0.080872914,51,803,0.0635118306,-21.467117,-1.3350302609,0.1818664425,False
-1,continent,Americas,begin_checkout / session,begin_checkout,session,54,779,0.0693196406,95,803,0.1183063512,70.667866,3.3349689122,0.0008530894,True
-1,continent,Americas,new_accounts / session,new account,session,64,779,0.082156611,57,803,0.0709838107,-13.599393,-0.8359378415,0.4031898725,False
-1,continent,Asia,add_payment_info / session,add_payment_info,session,33,296,0.1114864865,6,327,0.0183486239,-83.54184,-4.7923805341,1.6481e-06,True
-1,continent,Asia,add_shipping_info / session,add_shipping_info,session,38,296,0.1283783784,21,327,0.0642201835,-49.975857,-2.7311800649,0.0063107981,True
-1,continent,Asia,begin_checkout / session,begin_checkout,session,35,296,0.1182432432,35,327,0.1070336391,-9.480122,-0.4424278366,0.6581796393,False
-1,continent,Asia,new_accounts / session,new account,session,24,296,0.0810810811,33,327,0.1009174312,24.464832,0.8575903327,0.391118715,False
-1,continent,Europe,add_payment_info / session,add_payment_info,session,15,293,0.0511945392,13,279,0.0465949821,-8.984468,-0.25484228,0.7988449184,False
-1,continent,Europe,add_shipping_info / session,add_shipping_info,session,25,293,0.0853242321,30,279,0.1075268817,26.021505,0.9003515481,0.3679331968,False
-1,continent,Europe,begin_checkout / session,begin_checkout,session,20,293,0.0682593857,12,279,0.0430107527,-36.989247,-1.3134088141,0.189045229,False
-1,continent,Europe,new_accounts / session,new account,session,34,293,0.1160409556,28,279,0.1003584229,-13.514653,-0.6030720415,0.5464607648,False
-1,continent,Oceania,add_payment_info / session,add_payment_info,session,7,79,0.0886075949,1,90,0.0111111111,-87.460317,-2.3670215903,0.0179318867,True
-1,continent,Oceania,add_shipping_info / session,add_shipping_info,session,1,79,0.0126582278,5,90,0.0555555556,338.888889,1.5036230127,0.1326784623,False
-1,continent,Oceania,begin_checkout / session,begin_checkout,session,4,79,0.0506329114,8,90,0.0888888889,75.555556,0.9661332008,0.3339775331,False
-1,continent,Oceania,new_accounts / session,new account,session,10,79,0.1265822785,16,90,0.1777777778,40.444444,0.9203547178,0.3573874237,False
-1,device,desktop,add_payment_info / session,add_payment_info,session,42,898,0.0467706013,74,932,0.0793991416,69.762927,2.8637487401,0.0041865996,True
-1,device,desktop,add_shipping_info / session,add_shipping_info,session,70,898,0.0779510022,54,932,0.0579399142,-25.671367,-1.7027152142,0.0886213763,False
-1,device,desktop,begin_checkout / session,begin_checkout,session,73,898,0.0812917595,89,932,0.0954935622,17.470163,1.0692016391,0.2849788203,False
-1,device,desktop,new_accounts / session,new account,session,71,898,0.079064588,80,932,0.0858369099,8.565556,0.5263752252,0.5986275258,False
-1,device,mobile,add_payment_info / session,add_payment_info,session,43,621,0.0692431562,25,629,0.039745628,-42.599919,-2.2990507597,0.0215020571,True
-1,device,mobile,add_shipping_info / session,add_shipping_info,session,56,621,0.0901771337,63,629,0.1001589825,11.069157,0.6012185,0.5476944641,False
-1,device,mobile,begin_checkout / session,begin_checkout,session,46,621,0.0740740741,64,629,0.1017488076,37.36089,1.7268746308,0.0841901815,False
-1,device,mobile,new_accounts / session,new account,session,65,621,0.1046698873,56,629,0.0890302067,-14.94191,-0.935005903,0.3497852573,False
-1,device,tablet,add_payment_info / session,add_payment_info,session,4,33,0.1212121212,0,42,0.0,-100.0,-2.3189913477,0.0203955055,True
-1,device,tablet,add_shipping_info / session,add_shipping_info,session,11,33,0.3333333333,0,42,0.0,-100.0,-4.0504629365,5.11164e-05,True
-1,device,tablet,begin_checkout / session,begin_checkout,session,1,33,0.0303030303,5,42,0.119047619,292.857143,1.4062222246,0.1596581467,False
-1,device,tablet,new_accounts / session,new account,session,4,33,0.1212121212,3,42,0.0714285714,-41.071429,-0.7356896241,0.4619196056,False
-2,Total,All,add_payment_info / session,add_payment_info,session,91,1808,0.0503318584,68,1717,0.0396039604,-21.314329,-1.5339914515,0.1250317559,False
-2,Total,All,add_shipping_info / session,add_shipping_info,session,157,1808,0.0868362832,115,1717,0.066977286,-22.869469,-2.2084865196,0.0272103765,True
-2,Total,All,begin_checkout / session,begin_checkout,session,177,1808,0.0978982301,176,1717,0.1025043681,4.705027,0.45535166,0.6488562663,False
-2,Total,All,new_accounts / session,new account,session,143,1808,0.0790929204,138,1717,0.0803727432,1.618126,0.1402232996,0.8884835633,False
-2,channel,Direct,add_payment_info / session,add_payment_info,session,8,409,0.0195599022,24,401,0.0598503741,205.985037,2.9431602937,0.0032488016,True
-2,channel,Direct,add_shipping_info / session,add_shipping_info,session,40,409,0.097799511,29,401,0.072319202,-26.053616,-1.2988152849,0.1940073278,False
-2,channel,Direct,begin_checkout / session,begin_checkout,session,41,409,0.1002444988,34,401,0.0847880299,-15.41877,-0.7587738087,0.4479878758,False
-2,channel,Direct,new_accounts / session,new account,session,29,409,0.0709046455,35,401,0.0872817955,23.097429,0.8638836941,0.3876517851,False
-2,channel,Organic Search,add_payment_info / session,add_payment_info,session,34,627,0.0542264753,16,636,0.0251572327,-53.607103,-2.6490021873,0.0080729809,True
-2,channel,Organic Search,add_shipping_info / session,add_shipping_info,session,37,627,0.0590111643,33,636,0.0518867925,-12.072922,-0.5532753721,0.5800748624,False
-2,channel,Organic Search,begin_checkout / session,begin_checkout,session,76,627,0.1212121212,75,636,0.1179245283,-2.712264,-0.1800533356,0.8571106966,False
-2,channel,Organic Search,new_accounts / session,new account,session,44,627,0.0701754386,41,636,0.0644654088,-8.136792,-0.4049675919,0.685501333,False
-2,channel,Paid Search,add_payment_info / session,add_payment_info,session,17,484,0.0351239669,13,439,0.0296127563,-15.690741,-0.4715377293,0.6372567832,False
-2,channel,Paid Search,add_shipping_info / session,add_shipping_info,session,41,484,0.0847107438,36,439,0.0820045558,-3.194622,-0.1484852143,0.8819598539,False
-2,channel,Paid Search,begin_checkout / session,begin_checkout,session,25,484,0.0516528926,27,439,0.0615034169,19.070615,0.6481930775,0.5168600787,False
-2,channel,Paid Search,new_accounts / session,new account,session,43,484,0.0888429752,38,439,0.0865603645,-2.569264,-0.1224021632,0.9025805254,False
-2,channel,Social Search,add_payment_info / session,add_payment_info,session,15,147,0.1020408163,6,125,0.048,-52.96,-1.664077385,0.0960969658,False
-2,channel,Social Search,add_shipping_info / session,add_shipping_info,session,19,147,0.1292517007,9,125,0.072,-44.294737,-1.5485049184,0.1215007785,False
-2,channel,Social Search,begin_checkout / session,begin_checkout,session,21,147,0.1428571429,16,125,0.128,-10.4,-0.3562038687,0.7216878949,False
-2,channel,Social Search,new_accounts / session,new account,session,14,147,0.0952380952,11,125,0.088,-7.6,-0.2059225645,0.8368513993,False
-2,channel,Undefined,add_payment_info / session,add_payment_info,session,17,141,0.1205673759,9,116,0.0775862069,-35.649087,-1.1370790862,0.2555052259,False
-2,channel,Undefined,add_shipping_info / session,add_shipping_info,session,20,141,0.1418439716,8,116,0.0689655172,-51.37931,-1.8659822545,0.0620438483,False
-2,channel,Undefined,begin_checkout / session,begin_checkout,session,14,141,0.0992907801,24,116,0.2068965517,108.374384,2.4183926976,0.0155892426,True
-2,channel,Undefined,new_accounts / session,new account,session,13,141,0.0921985816,13,116,0.1120689655,21.551724,0.5256766757,0.5991128722,False
-2,continent,(not set),add_payment_info / session,add_payment_info,session,0,20,0.0,0,16,0.0,0.0,0.0,1.0,False
-2,continent,(not set),add_shipping_info / session,add_shipping_info,session,1,20,0.05,8,16,0.5,900.0,3.098386677,0.0019457737,True
-2,continent,(not set),begin_checkout / session,begin_checkout,session,3,20,0.15,2,16,0.125,-16.666667,-0.2155263624,0.8293569607,False
-2,continent,(not set),new_accounts / session,new account,session,1,20,0.05,2,16,0.125,150.0,0.809039835,0.4184922334,False
-2,continent,Africa,add_payment_info / session,add_payment_info,session,5,80,0.0625,0,89,0.0,-100.0,-2.3941780248,0.0166576614,True
-2,continent,Africa,add_shipping_info / session,add_shipping_info,session,12,80,0.15,3,89,0.0337078652,-77.52809,-2.6541636825,0.007950525,True
-2,continent,Africa,begin_checkout / session,begin_checkout,session,16,80,0.2,3,89,0.0337078652,-83.146067,-3.4169028251,0.0006333788,True
-2,continent,Africa,new_accounts / session,new account,session,6,80,0.075,6,89,0.0674157303,-10.11236,-0.1916711136,0.8479998344,False
-2,continent,Americas,add_payment_info / session,add_payment_info,session,57,919,0.0620239391,35,887,0.0394588501,-36.381258,-2.1802995596,0.0292352637,True
-2,continent,Americas,add_shipping_info / session,add_shipping_info,session,84,919,0.0914036997,47,887,0.0529875986,-42.029044,-3.1466516709,0.0016515158,True
-2,continent,Americas,begin_checkout / session,begin_checkout,session,86,919,0.0935799782,75,887,0.0845546787,-9.644477,-0.6728901551,0.5010171759,False
-2,continent,Americas,new_accounts / session,new account,session,72,919,0.0783460283,66,887,0.0744081172,-5.026306,-0.3149247356,0.7528188002,False
-2,continent,Asia,add_payment_info / session,add_payment_info,session,13,353,0.0368271955,21,345,0.0608695652,65.284281,1.4752933516,0.1401336931,False
-2,continent,Asia,add_shipping_info / session,add_shipping_info,session,37,353,0.104815864,27,345,0.0782608696,-25.3349,-1.2154475169,0.2241954544,False
-2,continent,Asia,begin_checkout / session,begin_checkout,session,49,353,0.1388101983,67,345,0.1942028986,39.905353,1.965561609,0.0493492724,True
-2,continent,Asia,new_accounts / session,new account,session,19,353,0.0538243626,32,345,0.0927536232,72.326468,1.9758935248,0.0481668377,True
-2,continent,Europe,add_payment_info / session,add_payment_info,session,16,336,0.0476190476,9,306,0.0294117647,-38.235294,-1.1910511702,0.2336334974,False
-2,continent,Europe,add_shipping_info / session,add_shipping_info,session,17,336,0.0505952381,23,306,0.0751633987,48.558247,1.2862999923,0.1983383852,False
-2,continent,Europe,begin_checkout / session,begin_checkout,session,21,336,0.0625,18,306,0.0588235294,-5.882353,-0.194777148,0.8455674129,False
-2,continent,Europe,new_accounts / session,new account,session,33,336,0.0982142857,28,306,0.091503268,-6.833036,-0.2896231476,0.7721045564,False
-2,continent,Oceania,add_payment_info / session,add_payment_info,session,0,100,0.0,3,74,0.0405405405,0.0,2.0310533743,0.0422495805,True
-2,continent,Oceania,add_shipping_info / session,add_shipping_info,session,6,100,0.06,7,74,0.0945945946,57.657658,0.8580530027,0.3908631969,False
-2,continent,Oceania,begin_checkout / session,begin_checkout,session,2,100,0.02,11,74,0.1486486486,643.243243,3.1908846037,0.0014183792,True
-2,continent,Oceania,new_accounts / session,new account,session,12,100,0.12,4,74,0.0540540541,-54.954955,-1.4882985254,0.1366721837,False
-2,device,desktop,add_payment_info / session,add_payment_info,session,51,1036,0.0492277992,41,948,0.0432489451,-12.14528,-0.6325842209,0.5270051939,False
-2,device,desktop,add_shipping_info / session,add_shipping_info,session,74,1036,0.0714285714,60,948,0.0632911392,-11.392405,-0.7214462816,0.4706349801,False
-2,device,desktop,begin_checkout / session,begin_checkout,session,90,1036,0.0868725869,90,948,0.0949367089,9.2827,0.6246797819,0.5321812453,False
-2,device,desktop,new_accounts / session,new account,session,93,1036,0.0897683398,77,948,0.0812236287,-9.518624,-0.6792179594,0.4969997696,False
-2,device,mobile,add_payment_info / session,add_payment_info,session,38,728,0.0521978022,26,728,0.0357142857,-31.578947,-1.534095263,0.1250062185,False
-2,device,mobile,add_shipping_info / session,add_shipping_info,session,77,728,0.1057692308,52,728,0.0714285714,-32.467532,-2.3056340623,0.0211310883,True
-2,device,mobile,begin_checkout / session,begin_checkout,session,79,728,0.1085164835,83,728,0.114010989,5.063291,0.3333619542,0.7388610784,False
-2,device,mobile,new_accounts / session,new account,session,47,728,0.0645604396,58,728,0.0796703297,23.404255,1.1144255196,0.2650966803,False
-2,device,tablet,add_payment_info / session,add_payment_info,session,2,44,0.0454545455,1,41,0.0243902439,-46.341463,-0.5259049267,0.5989542657,False
-2,device,tablet,add_shipping_info / session,add_shipping_info,session,6,44,0.1363636364,3,41,0.0731707317,-46.341463,-0.9461674355,0.3440631928,False
-2,device,tablet,begin_checkout / session,begin_checkout,session,8,44,0.1818181818,3,41,0.0731707317,-59.756098,-1.4911971506,0.1359097416,False
-2,device,tablet,new_accounts / session,new account,session,3,44,0.0681818182,3,41,0.0731707317,7.317073,0.0897314188,0.928500648,False
-3,Total,All,add_payment_info / session,add_payment_info,session,125,2387,0.0523669879,170,2467,0.0689096068,31.589785,2.4116769498,0.0158793443,True
-3,Total,All,add_shipping_info / session,add_shipping_info,session,144,2387,0.06032677,157,2467,0.0636400486,5.49222,0.4785050854,0.6322907556,False
-3,Total,All,begin_checkout / session,begin_checkout,session,291,2387,0.1219103477,382,2467,0.15484394,27.0146,3.3193432073,0.0009022946,True
-3,Total,All,new_accounts / session,new account,session,158,2387,0.0661918726,190,2467,0.0770166194,16.353589,1.4614810835,0.1438834631,False
-3,channel,Direct,add_payment_info / session,add_payment_info,session,16,571,0.0280210158,34,578,0.0588235294,109.926471,2.5588468757,0.0105019989,True
-3,channel,Direct,add_shipping_info / session,add_shipping_info,session,24,571,0.0420315236,25,578,0.0432525952,2.905133,0.1024209275,0.9184225732,False
-3,channel,Direct,begin_checkout / session,begin_checkout,session,67,571,0.1173380035,81,578,0.1401384083,19.43139,1.1535505985,0.2486844619,False
-3,channel,Direct,new_accounts / session,new account,session,40,571,0.0700525394,38,578,0.0657439446,-6.150519,-0.2902923564,0.771592586,False
-3,channel,Organic Search,add_payment_info / session,add_payment_info,session,25,804,0.0310945274,57,889,0.0641169854,106.200225,3.1605457712,0.0015747386,True
-3,channel,Organic Search,add_shipping_info / session,add_shipping_info,session,50,804,0.0621890547,46,889,0.0517435321,-16.7964,-0.9280032244,0.3534058971,False
-3,channel,Organic Search,begin_checkout / session,begin_checkout,session,126,804,0.1567164179,134,889,0.1507311586,-3.819165,-0.3410991092,0.7330289718,False
-3,channel,Organic Search,new_accounts / session,new account,session,53,804,0.065920398,65,889,0.0731158605,10.915381,0.5806104068,0.5615030568,False
-3,channel,Paid Search,add_payment_info / session,add_payment_info,session,41,629,0.0651828299,30,666,0.045045045,-30.894309,-1.5910694417,0.1115939488,False
-3,channel,Paid Search,add_shipping_info / session,add_shipping_info,session,31,629,0.0492845787,23,666,0.0345345345,-29.928315,-1.3271129023,0.1844713379,False
-3,channel,Paid Search,begin_checkout / session,begin_checkout,session,55,629,0.0874403816,66,666,0.0990990991,13.333333,0.7204790692,0.4712300823,False
-3,channel,Paid Search,new_accounts / session,new account,session,42,629,0.066772655,62,666,0.0930930931,39.417989,1.7418786041,0.0815296886,False
-3,channel,Social Search,add_payment_info / session,add_payment_info,session,21,217,0.0967741935,15,208,0.0721153846,-25.480769,-0.9126453469,0.3614290965,False
-3,channel,Social Search,add_shipping_info / session,add_shipping_info,session,22,217,0.1013824885,26,208,0.125,23.295455,0.7689513107,0.4419222153,False
-3,channel,Social Search,begin_checkout / session,begin_checkout,session,21,217,0.0967741935,28,208,0.1346153846,39.102564,1.221037029,0.222072,False
-3,channel,Social Search,new_accounts / session,new account,session,13,217,0.0599078341,16,208,0.0769230769,28.402367,0.6954206118,0.486791747,False
-3,channel,Undefined,add_payment_info / session,add_payment_info,session,22,166,0.1325301205,34,126,0.2698412698,103.607504,2.9517972903,0.0031593026,True
-3,channel,Undefined,add_shipping_info / session,add_shipping_info,session,17,166,0.1024096386,37,126,0.2936507937,186.741363,4.1689505333,3.06005e-05,True
-3,channel,Undefined,begin_checkout / session,begin_checkout,session,22,166,0.1325301205,73,126,0.5793650794,337.157287,8.0720337694,0.0,True
-3,channel,Undefined,new_accounts / session,new account,session,10,166,0.0602409639,9,126,0.0714285714,18.571429,0.3838926901,0.7010579845,False
-3,continent,(not set),add_payment_info / session,add_payment_info,session,3,32,0.09375,0,22,0.0,-100.0,-1.4777765492,0.1394675972,False
-3,continent,(not set),add_shipping_info / session,add_shipping_info,session,3,32,0.09375,4,22,0.1818181818,93.939394,0.9466823733,0.3438006551,False
-3,continent,(not set),begin_checkout / session,begin_checkout,session,5,32,0.15625,8,22,0.3636363636,132.727273,1.7514582993,0.0798669983,False
-3,continent,(not set),new_accounts / session,new account,session,1,32,0.03125,3,22,0.1363636364,336.363636,1.4491964858,0.1472827186,False
-3,continent,Africa,add_payment_info / session,add_payment_info,session,2,123,0.0162601626,4,121,0.0330578512,103.305785,0.8470822417,0.3969492826,False
-3,continent,Africa,add_shipping_info / session,add_shipping_info,session,11,123,0.0894308943,10,121,0.0826446281,-7.588279,-0.1889770073,0.8501108376,False
-3,continent,Africa,begin_checkout / session,begin_checkout,session,6,123,0.0487804878,27,121,0.2231404959,357.438017,3.9818861349,6.83705e-05,True
-3,continent,Africa,new_accounts / session,new account,session,4,123,0.0325203252,5,121,0.041322314,27.066116,0.3647252092,0.7153165388,False
-3,continent,Americas,add_payment_info / session,add_payment_info,session,50,1209,0.041356493,83,1279,0.0648944488,56.914777,2.608681617,0.0090891765,True
-3,continent,Americas,add_shipping_info / session,add_shipping_info,session,58,1209,0.0479735318,74,1279,0.0578577013,20.603381,1.0993581129,0.2716118937,False
-3,continent,Americas,begin_checkout / session,begin_checkout,session,146,1209,0.1207609595,185,1279,0.1446442533,19.77733,1.7531891059,0.0795695524,False
-3,continent,Americas,new_accounts / session,new account,session,87,1209,0.0719602978,94,1279,0.0734949179,2.132593,0.1473029413,0.882892911,False
-3,continent,Asia,add_payment_info / session,add_payment_info,session,42,457,0.0919037199,24,478,0.050209205,-45.367603,-2.4881406297,0.0128412944,True
-3,continent,Asia,add_shipping_info / session,add_shipping_info,session,40,457,0.0875273523,23,478,0.0481171548,-45.026151,-2.4030231115,0.0162601597,True
-3,continent,Asia,begin_checkout / session,begin_checkout,session,52,457,0.113785558,55,478,0.1150627615,1.122465,0.0613240605,0.9511011294,False
-3,continent,Asia,new_accounts / session,new account,session,36,457,0.0787746171,42,478,0.0878661088,11.541144,0.5025453848,0.6152839359,False
-3,continent,Europe,add_payment_info / session,add_payment_info,session,20,449,0.0445434298,31,458,0.0676855895,51.954148,1.5126605073,0.130365916,False
-3,continent,Europe,add_shipping_info / session,add_shipping_info,session,26,449,0.0579064588,44,458,0.096069869,65.905274,2.1532525956,0.0312988322,True
-3,continent,Europe,begin_checkout / session,begin_checkout,session,64,449,0.1425389755,65,458,0.1419213974,-0.43327,-0.0266236013,0.9787599488,False
-3,continent,Europe,new_accounts / session,new account,session,28,449,0.0623608018,40,458,0.0873362445,40.049906,1.428029938,0.1532832416,False
-3,continent,Oceania,add_payment_info / session,add_payment_info,session,8,117,0.0683760684,28,109,0.2568807339,275.688073,3.8694964468,0.0001090604,True
-3,continent,Oceania,add_shipping_info / session,add_shipping_info,session,6,117,0.0512820513,2,109,0.0183486239,-64.220183,-1.3388258522,0.1806273726,False
-3,continent,Oceania,begin_checkout / session,begin_checkout,session,18,117,0.1538461538,42,109,0.3853211009,150.458716,3.9376283544,8.22909e-05,True
-3,continent,Oceania,new_accounts / session,new account,session,2,117,0.0170940171,6,109,0.0550458716,222.018349,1.5428374107,0.12287023,False
-3,device,desktop,add_payment_info / session,add_payment_info,session,72,1394,0.0516499283,93,1474,0.0630936228,22.156264,1.3154397576,0.1883621511,False
-3,device,desktop,add_shipping_info / session,add_shipping_info,session,77,1394,0.0552367288,91,1474,0.0617367707,11.767608,0.7408824926,0.4587646916,False
-3,device,desktop,begin_checkout / session,begin_checkout,session,136,1394,0.0975609756,257,1474,0.1743554953,78.714383,5.9774513965,2.3e-09,True
-3,device,desktop,new_accounts / session,new account,session,99,1394,0.0710186514,110,1474,0.0746268657,5.080657,0.3715606507,0.7102199909,False
-3,device,mobile,add_payment_info / session,add_payment_info,session,53,932,0.0568669528,71,943,0.0752916225,32.399608,1.605130081,0.1084651806,False
-3,device,mobile,add_shipping_info / session,add_shipping_info,session,64,932,0.0686695279,65,943,0.0689289502,0.377784,0.0221898673,0.9822965003,False
-3,device,mobile,begin_checkout / session,begin_checkout,session,152,932,0.1630901288,122,943,0.1293743372,-20.673104,-2.0664592766,0.0387851338,True
-3,device,mobile,new_accounts / session,new account,session,55,932,0.0590128755,80,943,0.084835631,43.757833,2.1628455741,0.030553059,True
-3,device,tablet,add_payment_info / session,add_payment_info,session,0,61,0.0,6,50,0.12,0.0,2.7817774379,0.00540621,True
-3,device,tablet,add_shipping_info / session,add_shipping_info,session,3,61,0.0491803279,1,50,0.02,-59.333333,-0.8206910398,0.4118222759,False
-3,device,tablet,begin_checkout / session,begin_checkout,session,3,61,0.0491803279,3,50,0.06,22.0,0.2508159985,0.8019563719,False
-3,device,tablet,new_accounts / session,new account,session,4,61,0.0655737705,0,50,0.0,-100.0,-1.8442495276,0.0651467834,False
-4,Total,All,add_payment_info / session,add_payment_info,session,165,3639,0.045342127,104,3619,0.0287372202,-36.621367,-3.7440926024,0.0001810469,True
-4,Total,All,add_shipping_info / session,add_shipping_info,session,216,3639,0.0593569662,156,3619,0.0431058303,-27.37865,-3.1392257146,0.0016939491,True
-4,Total,All,begin_checkout / session,begin_checkout,session,397,3639,0.1090959055,357,3619,0.0986460348,-9.578609,-1.4589109262,0.1445896255,False
-4,Total,All,new_accounts / session,new account,session,308,3639,0.084638637,292,3619,0.0806852722,-4.670875,-0.6115235313,0.5408530449,False
-4,channel,Direct,add_payment_info / session,add_payment_info,session,41,851,0.0481786134,20,868,0.0230414747,-52.17489,-2.8165744967,0.0048538785,True
-4,channel,Direct,add_shipping_info / session,add_shipping_info,session,37,851,0.0434782609,22,868,0.0253456221,-41.705069,-2.0646362131,0.0389574341,True
-4,channel,Direct,begin_checkout / session,begin_checkout,session,83,851,0.0975323149,68,868,0.0783410138,-19.676864,-1.4054179545,0.1598970308,False
-4,channel,Direct,new_accounts / session,new account,session,85,851,0.0998824912,54,868,0.0622119816,-37.714828,-2.8643635128,0.0041784818,True
-4,channel,Organic Search,add_payment_info / session,add_payment_info,session,50,1316,0.037993921,33,1321,0.0249810749,-34.249811,-1.9136266779,0.0556678738,False
-4,channel,Organic Search,add_shipping_info / session,add_shipping_info,session,66,1316,0.0501519757,40,1321,0.0302800908,-39.623334,-2.5976131545,0.0093874185,True
-4,channel,Organic Search,begin_checkout / session,begin_checkout,session,122,1316,0.0927051672,123,1321,0.0931112793,0.438069,0.0359183835,0.9713474374,False
-4,channel,Organic Search,new_accounts / session,new account,session,109,1316,0.0828267477,99,1321,0.0749432248,-9.518088,-0.7509470688,0.4526845116,False
-4,channel,Paid Search,add_payment_info / session,add_payment_info,session,38,1014,0.0374753452,24,950,0.0252631579,-32.587258,-1.5468345945,0.1219031359,False
-4,channel,Paid Search,add_shipping_info / session,add_shipping_info,session,44,1014,0.0433925049,38,950,0.04,-7.818182,-0.3756256784,0.7071951979,False
-4,channel,Paid Search,begin_checkout / session,begin_checkout,session,46,1014,0.0453648915,66,950,0.0694736842,53.144165,2.3024885644,0.0213076356,True
-4,channel,Paid Search,new_accounts / session,new account,session,83,1014,0.0818540434,93,950,0.0978947368,19.596703,1.2437542275,0.2135900313,False
-4,channel,Social Search,add_payment_info / session,add_payment_info,session,7,289,0.0242214533,9,271,0.0332103321,37.111228,0.6380778437,0.5234230085,False
-4,channel,Social Search,add_shipping_info / session,add_shipping_info,session,38,289,0.1314878893,21,271,0.0774907749,-41.066226,-2.0799517625,0.0375299575,True
-4,channel,Social Search,begin_checkout / session,begin_checkout,session,78,289,0.2698961938,46,271,0.1697416974,-37.108525,-2.8526201426,0.0043360418,True
-4,channel,Social Search,new_accounts / session,new account,session,20,289,0.0692041522,27,271,0.0996309963,43.96679,1.2977076879,0.1943878009,False
-4,channel,Undefined,add_payment_info / session,add_payment_info,session,29,169,0.1715976331,18,209,0.0861244019,-49.810262,-2.5039727123,0.0122807505,True
-4,channel,Undefined,add_shipping_info / session,add_shipping_info,session,31,169,0.1834319527,35,209,0.1674641148,-8.705047,-0.406592388,0.6843073889,False
-4,channel,Undefined,begin_checkout / session,begin_checkout,session,68,169,0.4023668639,54,209,0.2583732057,-35.786659,-2.9771852755,0.0029090815,True
-4,channel,Undefined,new_accounts / session,new account,session,11,169,0.0650887574,19,209,0.0909090909,39.669421,0.9233662435,0.355816377,False
-4,continent,(not set),add_payment_info / session,add_payment_info,session,8,57,0.1403508772,1,43,0.023255814,-83.430233,-2.0256681061,0.0427988072,True
-4,continent,(not set),add_shipping_info / session,add_shipping_info,session,1,57,0.0175438596,0,43,0.0,-100.0,-0.8729295648,0.3827014704,False
-4,continent,(not set),begin_checkout / session,begin_checkout,session,15,57,0.2631578947,2,43,0.0465116279,-82.325581,-2.8553500543,0.0042989417,True
-4,continent,(not set),new_accounts / session,new account,session,3,57,0.0526315789,4,43,0.0930232558,76.744186,0.7837418626,0.4331915934,False
-4,continent,Africa,add_payment_info / session,add_payment_info,session,12,174,0.0689655172,11,175,0.0628571429,-8.857143,-0.2299637019,0.8181199755,False
-4,continent,Africa,add_shipping_info / session,add_shipping_info,session,10,174,0.0574712644,6,175,0.0342857143,-40.342857,-1.0354798639,0.3004448654,False
-4,continent,Africa,begin_checkout / session,begin_checkout,session,5,174,0.0287356322,29,175,0.1657142857,476.685714,4.3148382444,1.5972e-05,True
-4,continent,Africa,new_accounts / session,new account,session,17,174,0.0977011494,13,175,0.0742857143,-23.966387,-0.780283864,0.4352238085,False
-4,continent,Americas,add_payment_info / session,add_payment_info,session,81,1823,0.0444322545,56,1824,0.0307017544,-30.902101,-2.1804500792,0.0292241154,True
-4,continent,Americas,add_shipping_info / session,add_shipping_info,session,123,1823,0.0674712013,71,1824,0.0389254386,-42.308069,-3.8407508058,0.0001226586,True
-4,continent,Americas,begin_checkout / session,begin_checkout,session,198,1823,0.1086121777,161,1824,0.0882675439,-18.731448,-2.0621031363,0.0391979178,True
-4,continent,Americas,new_accounts / session,new account,session,164,1823,0.0899616018,156,1824,0.0855263158,-4.930199,-0.4733625215,0.6359545637,False
-4,continent,Asia,add_payment_info / session,add_payment_info,session,16,694,0.023054755,12,734,0.0163487738,-29.087193,-0.9135055012,0.3609767417,False
-4,continent,Asia,add_shipping_info / session,add_shipping_info,session,24,694,0.0345821326,27,734,0.0367847411,6.36921,0.224169817,0.8226251684,False
-4,continent,Asia,begin_checkout / session,begin_checkout,session,63,694,0.090778098,66,734,0.0899182561,-0.947191,-0.0566514485,0.9548228504,False
-4,continent,Asia,new_accounts / session,new account,session,45,694,0.0648414986,53,734,0.0722070845,11.35937,0.5502503278,0.5821476887,False
-4,continent,Europe,add_payment_info / session,add_payment_info,session,27,709,0.0380818054,22,672,0.0327380952,-14.032187,-0.5365341035,0.5915894728,False
-4,continent,Europe,add_shipping_info / session,add_shipping_info,session,43,709,0.0606488011,45,672,0.0669642857,10.413206,0.4802536502,0.6310470422,False
-4,continent,Europe,begin_checkout / session,begin_checkout,session,87,709,0.1227080395,78,672,0.1160714286,-5.408456,-0.3800512727,0.7039073554,False
-4,continent,Europe,new_accounts / session,new account,session,63,709,0.0888575458,53,672,0.0788690476,-11.241024,-0.668852774,0.5035893982,False
-4,continent,Oceania,add_payment_info / session,add_payment_info,session,21,182,0.1153846154,2,171,0.0116959064,-89.863548,-3.9448607804,7.98464e-05,True
-4,continent,Oceania,add_shipping_info / session,add_shipping_info,session,15,182,0.0824175824,7,171,0.0409356725,-50.331384,-1.6112187548,0.1071320514,False
-4,continent,Oceania,begin_checkout / session,begin_checkout,session,29,182,0.1593406593,21,171,0.1228070175,-22.92801,-0.9838021148,0.3252128194,False
-4,continent,Oceania,new_accounts / session,new account,session,16,182,0.0879120879,13,171,0.0760233918,-13.523392,-0.4065217847,0.6843592538,False
-4,device,desktop,add_payment_info / session,add_payment_info,session,98,2151,0.0455602046,68,2141,0.0317608594,-30.288154,-2.3442191903,0.0190669623,True
-4,device,desktop,add_shipping_info / session,add_shipping_info,session,128,2151,0.059507206,87,2141,0.0406352172,-31.713787,-2.8339127757,0.0045981881,True
-4,device,desktop,begin_checkout / session,begin_checkout,session,247,2151,0.1148303115,199,2141,0.0929472209,-19.056894,-2.3490647276,0.0188206347,True
-4,device,desktop,new_accounts / session,new account,session,186,2151,0.0864714086,171,2141,0.07986922,-7.635112,-0.7831407978,0.4335444357,False
-4,device,mobile,add_payment_info / session,add_payment_info,session,61,1410,0.0432624113,36,1391,0.0258806614,-40.177488,-2.5155558448,0.0118844848,True
-4,device,mobile,add_shipping_info / session,add_shipping_info,session,88,1410,0.0624113475,66,1391,0.0474478792,-23.975557,-1.7370991686,0.0823696681,False
-4,device,mobile,begin_checkout / session,begin_checkout,session,148,1410,0.104964539,137,1391,0.0984902948,-6.16803,-0.566684074,0.570928843,False
-4,device,mobile,new_accounts / session,new account,session,115,1410,0.0815602837,114,1391,0.0819554277,0.484481,0.038162069,0.9695584634,False
-4,device,tablet,add_payment_info / session,add_payment_info,session,6,78,0.0769230769,0,87,0.0,-100.0,-2.6353078767,0.0084060998,True
-4,device,tablet,add_shipping_info / session,add_shipping_info,session,0,78,0.0,3,87,0.0344827586,0.0,1.6551325027,0.0978976231,False
-4,device,tablet,begin_checkout / session,begin_checkout,session,2,78,0.0256410256,21,87,0.2413793103,841.37931,3.9945515577,6.48168e-05,True
-4,device,tablet,new_accounts / session,new account,session,7,78,0.0897435897,7,87,0.0804597701,-10.344828,-0.2136599402,0.830812253,False
+1,Total,All,add_payment_info / session,add_payment_info,session,1988,45362,0.0438252282,2229,45193,0.0493217976,12.542021,3.9248840231,8.67715e-05,True
+1,Total,All,add_shipping_info / session,add_shipping_info,session,3034,45362,0.0668841762,3221,45193,0.0712720997,6.560481,2.6035714547,0.0092258034,True
+1,Total,All,begin_checkout / session,begin_checkout,session,3784,45362,0.0834178387,4021,45193,0.0889739561,6.660587,2.9787829618,0.0028939569,True
+1,Total,All,new_accounts / session,new account,session,3823,45362,0.0842775892,3681,45193,0.0814506671,-3.354299,-1.5428826146,0.1228592598,False
+1,channel,Direct,add_payment_info / session,add_payment_info,session,392,10691,0.0366663549,516,10361,0.0498021427,35.82518,4.690261153,2.7286e-06,True
+1,channel,Direct,add_shipping_info / session,add_shipping_info,session,664,10691,0.0621083154,716,10361,0.0691052987,11.265775,2.0507074977,0.0402954404,True
+1,channel,Direct,begin_checkout / session,begin_checkout,session,823,10691,0.0769806379,915,10361,0.088311939,14.719677,2.9865890054,0.002821087,True
+1,channel,Direct,new_accounts / session,new account,session,913,10691,0.0853989337,850,10361,0.0820384133,-3.935085,-0.8799990554,0.3788598213,False
+1,channel,Organic Search,add_payment_info / session,add_payment_info,session,640,15675,0.0408293461,514,15631,0.0328833728,-19.461427,-3.7307580259,0.0001909045,True
+1,channel,Organic Search,add_shipping_info / session,add_shipping_info,session,1021,15675,0.0651355662,922,15631,0.0589853496,-9.442179,-2.2550944825,0.0241273989,True
+1,channel,Organic Search,begin_checkout / session,begin_checkout,session,1249,15675,0.0796810207,1144,15631,0.0731878958,-8.148898,-2.1619556233,0.0306215969,True
+1,channel,Organic Search,new_accounts / session,new account,session,1307,15675,0.0833811802,1301,15631,0.0832320389,-0.178867,-0.0477451584,0.9619193439,False
+1,channel,Paid Search,add_payment_info / session,add_payment_info,session,450,11777,0.0382100705,519,11841,0.0438307575,14.709963,2.1773893224,0.0294515317,True
+1,channel,Paid Search,add_shipping_info / session,add_shipping_info,session,770,11777,0.0653816761,794,11841,0.0670551474,2.559542,0.5171175484,0.6050741043,False
+1,channel,Paid Search,begin_checkout / session,begin_checkout,session,967,11777,0.0821091959,958,11841,0.0809053289,-1.466178,-0.3380931747,0.7352929738,False
+1,channel,Paid Search,new_accounts / session,new account,session,990,11777,0.084062155,948,11841,0.0800608057,-4.759989,-1.1202966436,0.2625873719,False
+1,channel,Social Search,add_payment_info / session,add_payment_info,session,237,3883,0.061035282,264,3963,0.0666161998,9.143757,1.0109059441,0.3120614488,False
+1,channel,Social Search,add_shipping_info / session,add_shipping_info,session,300,3883,0.0772598506,353,3963,0.0890739339,15.291362,1.8941234886,0.0582086207,False
+1,channel,Social Search,begin_checkout / session,begin_checkout,session,392,3883,0.1009528715,435,3963,0.1097653293,8.729279,1.2709444176,0.2037484231,False
+1,channel,Social Search,new_accounts / session,new account,session,312,3883,0.0803502447,335,3963,0.0845319203,5.20431,0.6732587332,0.5007827014,False
+1,channel,Undefined,add_payment_info / session,add_payment_info,session,269,3336,0.0806354916,416,3397,0.122460995,51.869844,5.6761661739,1.38e-08,True
+1,channel,Undefined,add_shipping_info / session,add_shipping_info,session,279,3336,0.0836330935,436,3397,0.1283485428,53.466215,5.9544765329,2.6e-09,True
+1,channel,Undefined,begin_checkout / session,begin_checkout,session,353,3336,0.1058153477,569,3397,0.1675007359,58.295313,7.3613337063,0.0,True
+1,channel,Undefined,new_accounts / session,new account,session,301,3336,0.0902278177,247,3397,0.0727112158,-19.413749,-2.6281783412,0.0085843498,True
+1,continent,(not set),add_payment_info / session,add_payment_info,session,7,97,0.0721649485,10,100,0.1,38.571429,0.6955851422,0.4866886736,False
+1,continent,(not set),add_shipping_info / session,add_shipping_info,session,4,97,0.0412371134,13,100,0.13,215.25,2.2181437314,0.0265450339,True
+1,continent,(not set),begin_checkout / session,begin_checkout,session,4,97,0.0412371134,22,100,0.22,433.5,3.706052864,0.0002105144,True
+1,continent,(not set),new_accounts / session,new account,session,7,97,0.0721649485,11,100,0.11,52.428571,0.9214049523,0.3568390442,False
+1,continent,Africa,add_payment_info / session,add_payment_info,session,19,494,0.0384615385,24,474,0.0506329114,31.64557,0.9188080662,0.3581959727,False
+1,continent,Africa,add_shipping_info / session,add_shipping_info,session,41,494,0.0829959514,28,474,0.05907173,-28.825769,-1.4461846468,0.1481254188,False
+1,continent,Africa,begin_checkout / session,begin_checkout,session,54,494,0.1093117409,33,474,0.0696202532,-36.310361,-2.1584406972,0.0308935845,True
+1,continent,Africa,new_accounts / session,new account,session,36,494,0.0728744939,38,474,0.0801687764,10.009376,0.4269610722,0.6694076815,False
+1,continent,Americas,add_payment_info / session,add_payment_info,session,1107,25164,0.0439914163,1177,24769,0.0475190763,8.018973,1.8864690077,0.059231781,False
+1,continent,Americas,add_shipping_info / session,add_shipping_info,session,1704,25164,0.0677157845,1738,24769,0.0701683556,3.62186,1.0816073835,0.2794270223,False
+1,continent,Americas,begin_checkout / session,begin_checkout,session,2130,25164,0.0846447306,2164,24769,0.0873672736,3.216435,1.0849596296,0.2779395358,False
+1,continent,Americas,new_accounts / session,new account,session,2165,25164,0.0860356064,1971,24769,0.0795752755,-7.508904,-2.6186887727,0.0088268438,True
+1,continent,Asia,add_payment_info / session,add_payment_info,session,512,10626,0.0481837004,545,10932,0.0498536407,3.465779,0.5676947632,0.5702422481,False
+1,continent,Asia,add_shipping_info / session,add_shipping_info,session,730,10626,0.0686994165,798,10932,0.0729967069,6.255207,1.2292253316,0.2189873338,False
+1,continent,Asia,begin_checkout / session,begin_checkout,session,915,10626,0.0861095426,1002,10932,0.0916575192,6.442929,1.4308058785,0.1524858578,False
+1,continent,Asia,new_accounts / session,new account,session,878,10626,0.0826275174,934,10932,0.0854372484,3.400479,0.7433357779,0.4572784157,False
+1,continent,Europe,add_payment_info / session,add_payment_info,session,324,8472,0.0382436261,452,8423,0.0536625905,40.317737,4.7869707212,1.6932e-06,True
+1,continent,Europe,add_shipping_info / session,add_shipping_info,session,528,8472,0.0623229462,606,8423,0.0719458625,15.440407,2.49927342,0.0124448252,True
+1,continent,Europe,begin_checkout / session,begin_checkout,session,645,8472,0.0761331445,744,8423,0.0883295738,16.019868,2.8856068632,0.0039065981,True
+1,continent,Europe,new_accounts / session,new account,session,700,8472,0.082625118,683,8423,0.0810874985,-1.860959,-0.3645099331,0.7154772578,False
+1,continent,Oceania,add_payment_info / session,add_payment_info,session,19,509,0.0373280943,21,495,0.0424242424,13.652313,0.4127640612,0.6797794846,False
+1,continent,Oceania,add_shipping_info / session,add_shipping_info,session,27,509,0.0530451866,38,495,0.0767676768,44.721287,1.5272113646,0.1267084613,False
+1,continent,Oceania,begin_checkout / session,begin_checkout,session,36,509,0.0707269155,56,495,0.1131313131,59.955107,2.3283481118,0.0198936265,True
+1,continent,Oceania,new_accounts / session,new account,session,37,509,0.0726915521,44,495,0.0888888889,22.282282,0.9421685443,0.3461063557,False
+1,device,desktop,add_payment_info / session,add_payment_info,session,1130,26467,0.0426946764,1256,26417,0.0475451414,11.360819,2.6869978644,0.0072097414,True
+1,device,desktop,add_shipping_info / session,add_shipping_info,session,1711,26467,0.064646541,1916,26417,0.0725290533,12.193247,3.5860236943,0.0003357585,True
+1,device,desktop,begin_checkout / session,begin_checkout,session,2108,26467,0.0796463521,2404,26417,0.0910020063,14.257595,4.6739799747,2.9542e-06,True
+1,device,desktop,new_accounts / session,new account,session,2203,26467,0.0832357275,2147,26417,0.0812734224,-2.357527,-0.8212116742,0.411525708,False
+1,device,mobile,add_payment_info / session,add_payment_info,session,810,17896,0.045261511,942,17767,0.0530196432,17.140683,3.3893295676,0.0007006375,True
+1,device,mobile,add_shipping_info / session,add_shipping_info,session,1257,17896,0.0702391596,1256,17767,0.0706928575,0.645933,0.1673874085,0.867065232,False
+1,device,mobile,begin_checkout / session,begin_checkout,session,1593,17896,0.0890143049,1561,17767,0.0878595148,-1.297308,-0.384029294,0.7009567357,False
+1,device,mobile,new_accounts / session,new account,session,1530,17896,0.0854939651,1441,17767,0.0811054202,-5.133163,-1.499486139,0.1337475619,False
+1,device,tablet,add_payment_info / session,add_payment_info,session,48,999,0.048048048,31,1009,0.0307234886,-36.056739,-1.9966076075,0.0458678258,True
+1,device,tablet,add_shipping_info / session,add_shipping_info,session,66,999,0.0660660661,49,1009,0.0485629336,-26.493378,-1.6877251958,0.0914639928,False
+1,device,tablet,begin_checkout / session,begin_checkout,session,83,999,0.0830830831,56,1009,0.0555004955,-33.198801,-2.4346309346,0.0149069855,True
+1,device,tablet,new_accounts / session,new account,session,90,999,0.0900900901,93,1009,0.0921704658,2.309217,0.1619552304,0.8713411093,False
+2,Total,All,add_payment_info / session,add_payment_info,session,2344,50637,0.0462902621,2409,50244,0.0479460234,3.576911,1.2409939251,0.2146079931,False
+2,Total,All,add_shipping_info / session,add_shipping_info,session,3480,50637,0.0687244505,3510,50244,0.0698590877,1.650995,0.7095568649,0.4779789766,False
+2,Total,All,begin_checkout / session,begin_checkout,session,4262,50637,0.0841677035,4313,50244,0.0858410955,1.988164,0.9528980408,0.3406417329,False
+2,Total,All,new_accounts / session,new account,session,4165,50637,0.0822521081,4184,50244,0.0832736247,1.241934,0.5887934729,0.5559998249,False
+2,channel,Direct,add_payment_info / session,add_payment_info,session,516,11820,0.0436548223,504,11670,0.0431876607,-1.070126,-0.1756512528,0.8605679343,False
+2,channel,Direct,add_shipping_info / session,add_shipping_info,session,791,11820,0.0669204738,747,11670,0.0640102828,-4.34873,-0.9015544322,0.3672936065,False
+2,channel,Direct,begin_checkout / session,begin_checkout,session,965,11820,0.081641286,937,11670,0.0802913453,-1.653502,-0.3792179457,0.7045260264,False
+2,channel,Direct,new_accounts / session,new account,session,1002,11820,0.0847715736,966,11670,0.0827763496,-2.353647,-0.5518530816,0.5810490159,False
+2,channel,Organic Search,add_payment_info / session,add_payment_info,session,698,17466,0.0399633574,597,17428,0.0342552215,-14.283424,-2.8202793396,0.0047981861,True
+2,channel,Organic Search,add_shipping_info / session,add_shipping_info,session,1130,17466,0.0646971258,1040,17428,0.0596740877,-7.763928,-1.9426711977,0.0520558984,False
+2,channel,Organic Search,begin_checkout / session,begin_checkout,session,1385,17466,0.0792969197,1251,17428,0.071781042,-9.478146,-2.6563430845,0.0078993204,True
+2,channel,Organic Search,new_accounts / session,new account,session,1422,17466,0.0814153212,1500,17428,0.0860683957,5.715232,1.5689564143,0.1166580953,False
+2,channel,Paid Search,add_payment_info / session,add_payment_info,session,539,13329,0.0404381424,571,13187,0.0433002199,7.077668,1.1635299,0.2446145742,False
+2,channel,Paid Search,add_shipping_info / session,add_shipping_info,session,842,13329,0.0631705304,916,13187,0.0694623493,9.960054,2.0588977952,0.0395040304,True
+2,channel,Paid Search,begin_checkout / session,begin_checkout,session,1022,13329,0.0766749193,1103,13187,0.0836429817,9.087799,2.0895056587,0.0366622291,True
+2,channel,Paid Search,new_accounts / session,new account,session,1084,13329,0.0813264311,1074,13187,0.0814438462,0.144375,0.0349625655,0.972109591,False
+2,channel,Social Search,add_payment_info / session,add_payment_info,session,259,4361,0.0593900482,301,4289,0.070179529,18.167153,2.0389726266,0.0414527596,True
+2,channel,Social Search,add_shipping_info / session,add_shipping_info,session,364,4361,0.0834670947,362,4289,0.0844019585,1.120039,0.1567786489,0.8754193004,False
+2,channel,Social Search,begin_checkout / session,begin_checkout,session,442,4361,0.1013529007,461,4289,0.1074842621,6.049517,0.9324496264,0.3511042081,False
+2,channel,Social Search,new_accounts / session,new account,session,367,4361,0.0841550103,336,4289,0.0783399394,-6.909952,-0.9895890208,0.3223750386,False
+2,channel,Undefined,add_payment_info / session,add_payment_info,session,332,3661,0.090685605,436,3670,0.1188010899,31.00325,3.9303232651,8.48317e-05,True
+2,channel,Undefined,add_shipping_info / session,add_shipping_info,session,353,3661,0.0964217427,445,3670,0.121253406,25.753178,3.4132063306,0.0006420331,True
+2,channel,Undefined,begin_checkout / session,begin_checkout,session,448,3661,0.1223709369,561,3670,0.1528610354,24.916127,3.7887897441,0.000151383,True
+2,channel,Undefined,new_accounts / session,new account,session,290,3661,0.0792133297,308,3670,0.0839237057,5.946444,0.7367415874,0.4612795114,False
+2,continent,(not set),add_payment_info / session,add_payment_info,session,11,89,0.1235955056,7,130,0.0538461538,-56.433566,-1.8458424581,0.0649150837,False
+2,continent,(not set),add_shipping_info / session,add_shipping_info,session,7,89,0.0786516854,11,130,0.0846153846,7.582418,0.1578229611,0.8745963051,False
+2,continent,(not set),begin_checkout / session,begin_checkout,session,8,89,0.0898876404,19,130,0.1461538462,62.596154,1.2439527086,0.2135169686,False
+2,continent,(not set),new_accounts / session,new account,session,8,89,0.0898876404,11,130,0.0846153846,-5.865385,-0.1361424039,0.8917087061,False
+2,continent,Africa,add_payment_info / session,add_payment_info,session,32,566,0.0565371025,11,490,0.0224489796,-60.293367,-2.795132185,0.0051878498,True
+2,continent,Africa,add_shipping_info / session,add_shipping_info,session,50,566,0.0883392226,21,490,0.0428571429,-51.485714,-2.9432777038,0.0032475696,True
+2,continent,Africa,begin_checkout / session,begin_checkout,session,64,566,0.1130742049,25,490,0.0510204082,-54.878827,-3.6199146713,0.0002947002,True
+2,continent,Africa,new_accounts / session,new account,session,47,566,0.0830388693,37,490,0.0755102041,-9.066435,-0.4509033089,0.6520592386,False
+2,continent,Americas,add_payment_info / session,add_payment_info,session,1230,27902,0.0440828614,1342,27772,0.048322051,9.616412,2.3825354536,0.0171938763,True
+2,continent,Americas,add_shipping_info / session,add_shipping_info,session,1923,27902,0.0689197907,1931,27772,0.0695304623,0.886061,0.2838250024,0.776544493,False
+2,continent,Americas,begin_checkout / session,begin_checkout,session,2361,27902,0.0846175901,2360,27772,0.0849776754,0.425544,0.1524933388,0.8787978438,False
+2,continent,Americas,new_accounts / session,new account,session,2307,27902,0.082682245,2296,27772,0.082673196,-0.010944,-0.0038764948,0.9969070124,False
+2,continent,Asia,add_payment_info / session,add_payment_info,session,572,11983,0.0477342902,630,11983,0.0525744805,10.13986,1.716521505,0.0860666354,False
+2,continent,Asia,add_shipping_info / session,add_shipping_info,session,833,11983,0.0695151465,871,11983,0.0726863056,4.561825,0.9551344063,0.3395097315,False
+2,continent,Asia,begin_checkout / session,begin_checkout,session,1008,11983,0.0841191688,1102,11983,0.0919636151,9.325397,2.142885975,0.0321222554,True
+2,continent,Asia,new_accounts / session,new account,session,985,11983,0.082199783,1025,11983,0.0855378453,4.060914,0.9321442588,0.3512619778,False
+2,continent,Europe,add_payment_info / session,add_payment_info,session,481,9520,0.0505252101,395,9318,0.042391071,-16.099169,-2.6508149793,0.0080297816,True
+2,continent,Europe,add_shipping_info / session,add_shipping_info,session,643,9520,0.0675420168,628,9318,0.067396437,-0.21554,-0.0398269249,0.9682311103,False
+2,continent,Europe,begin_checkout / session,begin_checkout,session,787,9520,0.0826680672,742,9318,0.0796308221,-3.674025,-0.763198206,0.4453451986,False
+2,continent,Europe,new_accounts / session,new account,session,770,9520,0.0808823529,771,9318,0.0827430779,2.300533,0.4658999864,0.6412870909,False
+2,continent,Oceania,add_payment_info / session,add_payment_info,session,18,577,0.0311958406,24,551,0.0435571688,39.624924,1.0960839953,0.2730420179,False
+2,continent,Oceania,add_shipping_info / session,add_shipping_info,session,24,577,0.0415944541,48,551,0.0871143376,109.437387,3.1262319004,0.0017706187,True
+2,continent,Oceania,begin_checkout / session,begin_checkout,session,34,577,0.0589254766,65,551,0.1179673321,100.197502,3.5031035,0.0004598707,True
+2,continent,Oceania,new_accounts / session,new account,session,48,577,0.0831889081,44,551,0.0798548094,-4.007864,-0.204513941,0.8379518989,False
+2,device,desktop,add_payment_info / session,add_payment_info,session,1314,29497,0.0445469031,1401,29380,0.0476855003,7.045601,1.8155869346,0.0694337593,False
+2,device,desktop,add_shipping_info / session,add_shipping_info,session,1988,29497,0.0673966844,2088,29380,0.0710687543,5.448443,1.7550409741,0.0792522994,False
+2,device,desktop,begin_checkout / session,begin_checkout,session,2403,29497,0.0814659118,2585,29380,0.0879850238,8.002258,2.8402908619,0.0045072417,True
+2,device,desktop,new_accounts / session,new account,session,2442,29497,0.0827880801,2385,29380,0.0811776719,-1.945218,-0.7121756927,0.476355987,False
+2,device,mobile,add_payment_info / session,add_payment_info,session,978,20017,0.0488584703,961,19756,0.0486434501,-0.440088,-0.0995617276,0.9206922797,False
+2,device,mobile,add_shipping_info / session,add_shipping_info,session,1417,20017,0.0707898286,1356,19756,0.068637376,-3.040624,-0.8427543248,0.3993658577,False
+2,device,mobile,begin_checkout / session,begin_checkout,session,1766,20017,0.0882250087,1656,19756,0.0838226362,-4.989937,-1.5654232851,0.1174836922,False
+2,device,mobile,new_accounts / session,new account,session,1623,20017,0.0810810811,1701,19756,0.0861004252,6.190524,1.8084930005,0.0705298052,False
+2,device,tablet,add_payment_info / session,add_payment_info,session,52,1123,0.0463045414,47,1108,0.0424187726,-8.391766,-0.4456309109,0.6558638784,False
+2,device,tablet,add_shipping_info / session,add_shipping_info,session,75,1123,0.0667853963,66,1108,0.059566787,-10.808664,-0.7006165276,0.4835423612,False
+2,device,tablet,begin_checkout / session,begin_checkout,session,93,1123,0.0828138914,72,1108,0.0649819495,-21.532549,-1.6091667615,0.1075798823,False
+2,device,tablet,new_accounts / session,new account,session,100,1123,0.089047195,98,1108,0.0884476534,-0.673285,-0.0497883312,0.9602910655,False
+3,Total,All,add_payment_info / session,add_payment_info,session,3623,70047,0.0517224149,3697,70439,0.052485129,1.47463,0.6431724006,0.5201122397,False
+3,Total,All,add_shipping_info / session,add_shipping_info,session,5298,70047,0.0756349308,5188,70439,0.0736523801,-2.621211,-1.4137271445,0.1574420321,False
+3,Total,All,begin_checkout / session,begin_checkout,session,9532,70047,0.1360800605,9264,70439,0.1315180511,-3.352445,-2.5113885009,0.0120257269,True
+3,Total,All,new_accounts / session,new account,session,5856,70047,0.0836010107,5822,70439,0.0826530757,-1.13388,-0.6434885255,0.5199071579,False
+3,channel,Direct,add_payment_info / session,add_payment_info,session,861,16337,0.0527024546,794,16326,0.0486340806,-7.719515,-1.6762510907,0.0936890206,False
+3,channel,Direct,add_shipping_info / session,add_shipping_info,session,1233,16337,0.075472853,1154,16326,0.0706847973,-6.344077,-1.6624088002,0.0964308356,False
+3,channel,Direct,begin_checkout / session,begin_checkout,session,2191,16337,0.1341127502,2094,16326,0.1282616685,-4.362808,-1.5661160583,0.1173214494,False
+3,channel,Direct,new_accounts / session,new account,session,1339,16337,0.0819611924,1376,16326,0.0842827392,2.832495,0.7599109465,0.4473078179,False
+3,channel,Organic Search,add_payment_info / session,add_payment_info,session,1036,24585,0.042139516,1098,25055,0.0438235881,3.99642,0.9248843868,0.3550260489,False
+3,channel,Organic Search,add_shipping_info / session,add_shipping_info,session,1601,24585,0.0651210087,1563,25055,0.0623827579,-4.204865,-1.2486445116,0.2117951244,False
+3,channel,Organic Search,begin_checkout / session,begin_checkout,session,2921,24585,0.1188122839,2738,25055,0.1092795849,-8.023328,-3.3412708327,0.0008339583,True
+3,channel,Organic Search,new_accounts / session,new account,session,2084,24585,0.0847671344,2067,25055,0.0824985033,-2.67631,-0.9129195837,0.3612848369,False
+3,channel,Paid Search,add_payment_info / session,add_payment_info,session,816,18763,0.043489847,831,18744,0.0443341869,1.941464,0.3990284048,0.6898722747,False
+3,channel,Paid Search,add_shipping_info / session,add_shipping_info,session,1294,18763,0.0689655172,1232,18744,0.0657276995,-4.694836,-1.2510021391,0.210933697,False
+3,channel,Paid Search,begin_checkout / session,begin_checkout,session,2322,18763,0.1237541971,2192,18744,0.1169440888,-5.502931,-2.0267527915,0.0426877006,True
+3,channel,Paid Search,new_accounts / session,new account,session,1576,18763,0.0839950967,1553,18744,0.0828531797,-1.359504,-0.3998802115,0.689244748,False
+3,channel,Social Search,add_payment_info / session,add_payment_info,session,418,5726,0.0730003493,432,5780,0.0747404844,2.383735,0.3568027439,0.7212394819,False
+3,channel,Social Search,add_shipping_info / session,add_shipping_info,session,583,5726,0.1018162766,584,5780,0.1010380623,-0.764332,-0.1382535573,0.8900400289,False
+3,channel,Social Search,begin_checkout / session,begin_checkout,session,1032,5726,0.1802305274,1065,5780,0.1842560554,2.233544,0.5592470117,0.5759931529,False
+3,channel,Social Search,new_accounts / session,new account,session,474,5726,0.0827803004,463,5780,0.0801038062,-3.23325,-0.5248453224,0.599690722,False
+3,channel,Undefined,add_payment_info / session,add_payment_info,session,492,4636,0.1061259707,542,4534,0.1195412439,12.640896,2.0306305878,0.0422924824,True
+3,channel,Undefined,add_shipping_info / session,add_shipping_info,session,587,4636,0.1266177739,655,4534,0.1444640494,14.094605,2.4969055395,0.0125282324,True
+3,channel,Undefined,begin_checkout / session,begin_checkout,session,1066,4636,0.2299396031,1175,4534,0.2591530657,12.704842,3.2547974466,0.0011347326,True
+3,channel,Undefined,new_accounts / session,new account,session,383,4636,0.0826143227,363,4534,0.0800617556,-3.089739,-0.4470393041,0.6548466816,False
+3,continent,(not set),add_payment_info / session,add_payment_info,session,14,175,0.08,19,152,0.125,56.25,1.3474000939,0.1778514104,False
+3,continent,(not set),add_shipping_info / session,add_shipping_info,session,24,175,0.1371428571,20,152,0.1315789474,-4.057018,-0.1470534498,0.883089832,False
+3,continent,(not set),begin_checkout / session,begin_checkout,session,44,175,0.2514285714,34,152,0.2236842105,-11.034689,-0.5871410497,0.5571089801,False
+3,continent,(not set),new_accounts / session,new account,session,12,175,0.0685714286,9,152,0.0592105263,-13.651316,-0.3443991291,0.7305461438,False
+3,continent,Africa,add_payment_info / session,add_payment_info,session,33,681,0.0484581498,28,709,0.0394922426,-18.502372,-0.8157759627,0.4146282836,False
+3,continent,Africa,add_shipping_info / session,add_shipping_info,session,48,681,0.0704845815,51,709,0.071932299,2.053949,0.1049076561,0.9164490838,False
+3,continent,Africa,begin_checkout / session,begin_checkout,session,80,681,0.1174743025,91,709,0.1283497884,9.257757,0.6170961499,0.537171308,False
+3,continent,Africa,new_accounts / session,new account,session,46,681,0.0675477239,43,709,0.0606488011,-10.213405,-0.5252326408,0.5994214767,False
+3,continent,Americas,add_payment_info / session,add_payment_info,session,1959,38689,0.0506345473,2041,38992,0.0523440706,3.376199,1.0779687795,0.2810476891,False
+3,continent,Americas,add_shipping_info / session,add_shipping_info,session,2925,38689,0.0756028845,2854,38992,0.0731945014,-3.18557,-1.2789914797,0.2009000563,False
+3,continent,Americas,begin_checkout / session,begin_checkout,session,5309,38689,0.1372224663,5089,38992,0.1305139516,-4.888787,-2.7456028126,0.0060399839,True
+3,continent,Americas,new_accounts / session,new account,session,3222,38689,0.0832794851,3218,38992,0.0825297497,-0.900264,-0.3789125686,0.7047527906,False
+3,continent,Asia,add_payment_info / session,add_payment_info,session,872,16628,0.0524416647,843,16715,0.0504337421,-3.828869,-0.8299550211,0.4065642147,False
+3,continent,Asia,add_shipping_info / session,add_shipping_info,session,1213,16628,0.0729492422,1184,16715,0.0708345797,-2.898814,-0.7474468666,0.4547938643,False
+3,continent,Asia,begin_checkout / session,begin_checkout,session,2162,16628,0.1300216502,2119,16715,0.1267723602,-2.499038,-0.8868060661,0.3751833212,False
+3,continent,Asia,new_accounts / session,new account,session,1443,16628,0.0867813327,1395,16715,0.0834579719,-3.82958,-1.0873298699,0.2768910524,False
+3,continent,Europe,add_payment_info / session,add_payment_info,session,681,13190,0.0516300227,710,13108,0.0541653952,4.910655,0.9184794913,0.3583678911,False
+3,continent,Europe,add_shipping_info / session,add_shipping_info,session,1003,13190,0.0760424564,999,13108,0.0762129997,0.224274,0.0521419395,0.9584155955,False
+3,continent,Europe,begin_checkout / session,begin_checkout,session,1777,13190,0.1347232752,1784,13108,0.1361000915,1.021959,0.3262687041,0.7442210643,False
+3,continent,Europe,new_accounts / session,new account,session,1086,13190,0.0823351024,1106,13108,0.0843759536,2.478713,0.5986603273,0.549399418,False
+3,continent,Oceania,add_payment_info / session,add_payment_info,session,64,684,0.0935672515,56,763,0.0733944954,-21.559633,-1.3891966826,0.1647729502,False
+3,continent,Oceania,add_shipping_info / session,add_shipping_info,session,85,684,0.1242690058,80,763,0.1048492792,-15.627168,-1.1603305159,0.2459142647,False
+3,continent,Oceania,begin_checkout / session,begin_checkout,session,160,684,0.2339181287,147,763,0.1926605505,-17.637615,-1.9164906441,0.055302673,False
+3,continent,Oceania,new_accounts / session,new account,session,47,684,0.0687134503,51,763,0.0668414155,-2.724408,-0.1414879639,0.8874844678,False
+3,device,desktop,add_payment_info / session,add_payment_info,session,2087,41106,0.050771177,2167,41443,0.0522886857,2.988918,0.9860513792,0.3241079009,False
+3,device,desktop,add_shipping_info / session,add_shipping_info,session,3120,41106,0.0759013283,3072,41443,0.0741259079,-2.339116,-0.9682676305,0.3329107264,False
+3,device,desktop,begin_checkout / session,begin_checkout,session,5618,41106,0.1366710456,5567,41443,0.1343290785,-1.71358,-0.9830085896,0.3256032111,False
+3,device,desktop,new_accounts / session,new account,session,3458,41106,0.0841239722,3409,41443,0.0822575586,-2.218647,-0.9708724456,0.331611801,False
+3,device,mobile,add_payment_info / session,add_payment_info,session,1463,27404,0.053386367,1463,27423,0.0533493783,-0.069285,-0.0192666267,0.984628407,False
+3,device,mobile,add_shipping_info / session,add_shipping_info,session,2071,27404,0.0755729091,2029,27423,0.0739889873,-2.095886,-0.704991529,0.4808155078,False
+3,device,mobile,begin_checkout / session,begin_checkout,session,3735,27404,0.1362939717,3562,27423,0.1298909674,-4.697937,-2.20693434,0.0273186469,True
+3,device,mobile,new_accounts / session,new account,session,2272,27404,0.0829076047,2276,27423,0.0829960252,0.106649,0.037532816,0.9700601751,False
+3,device,tablet,add_payment_info / session,add_payment_info,session,73,1537,0.0474951204,67,1573,0.0425937699,-10.319693,-0.6591056087,0.5098279543,False
+3,device,tablet,add_shipping_info / session,add_shipping_info,session,107,1537,0.0696161353,87,1573,0.055308328,-20.55243,-1.6495289687,0.0990393135,False
+3,device,tablet,begin_checkout / session,begin_checkout,session,179,1537,0.1164606376,135,1573,0.0858232676,-26.30706,-2.8353035586,0.0045782161,True
+3,device,tablet,new_accounts / session,new account,session,126,1537,0.081977879,137,1573,0.0870947235,6.241738,0.512757591,0.6081208986,False
+4,Total,All,add_payment_info / session,add_payment_info,session,3731,105079,0.0355066188,3601,105141,0.0342492463,-3.541234,-1.5711064425,0.1161579264,False
+4,Total,All,add_shipping_info / session,add_shipping_info,session,5128,105079,0.048801378,4956,105141,0.0471367021,-3.411125,-1.7857953617,0.074132398,False
+4,Total,All,begin_checkout / session,begin_checkout,session,12555,105079,0.1194815329,12267,105141,0.1166718977,-2.351523,-1.9959978124,0.0459341609,True
+4,Total,All,new_accounts / session,new account,session,8984,105079,0.085497578,8687,105141,0.0826223833,-3.362896,-2.3754566027,0.0175272533,True
+4,channel,Direct,add_payment_info / session,add_payment_info,session,893,24395,0.0366058619,831,24653,0.0337078652,-7.916756,-1.7425469245,0.081412788,False
+4,channel,Direct,add_shipping_info / session,add_shipping_info,session,1191,24395,0.0488214798,1150,24653,0.0466474668,-4.452985,-1.1291883483,0.2588183879,False
+4,channel,Direct,begin_checkout / session,begin_checkout,session,2853,24395,0.1169501947,2826,24653,0.1146310794,-1.982994,-0.8025879942,0.4222129099,False
+4,channel,Direct,new_accounts / session,new account,session,2102,24395,0.0861651978,1980,24653,0.080314769,-6.789782,-2.3453357317,0.0190099533,True
+4,channel,Organic Search,add_payment_info / session,add_payment_info,session,1092,38033,0.0287119081,1063,37831,0.0280986493,-2.135904,-0.5083724185,0.6111921918,False
+4,channel,Organic Search,add_shipping_info / session,add_shipping_info,session,1558,38033,0.0409644256,1437,37831,0.0379847215,-7.273882,-2.1072952699,0.0350919931,True
+4,channel,Organic Search,begin_checkout / session,begin_checkout,session,3907,38033,0.1027265795,3577,37831,0.0945520869,-7.957524,-3.77529976,0.0001598154,True
+4,channel,Organic Search,new_accounts / session,new account,session,3325,38033,0.0874240791,3140,37831,0.0830007137,-5.059665,-2.1817953693,0.0291246385,True
+4,channel,Paid Search,add_payment_info / session,add_payment_info,session,776,28974,0.0267826327,761,28739,0.0264796966,-1.131092,-0.2260037296,0.8211985196,False
+4,channel,Paid Search,add_shipping_info / session,add_shipping_info,session,1152,28974,0.0397597846,1173,28739,0.0408156164,2.655527,0.6449889684,0.5189343347,False
+4,channel,Paid Search,begin_checkout / session,begin_checkout,session,2779,28974,0.0959135777,2946,28739,0.102508786,6.876199,2.6501233817,0.0080462381,True
+4,channel,Paid Search,new_accounts / session,new account,session,2406,28974,0.0830399669,2404,28739,0.0836493963,0.733899,0.2648424576,0.7911308279,False
+4,channel,Social Search,add_payment_info / session,add_payment_info,session,474,7961,0.0595402588,380,8056,0.0471698113,-20.77661,-3.4841595473,0.0004936851,True
+4,channel,Social Search,add_shipping_info / session,add_shipping_info,session,587,7961,0.0737344555,530,8056,0.0657894737,-10.775128,-1.9738189478,0.0484023336,True
+4,channel,Social Search,begin_checkout / session,begin_checkout,session,1438,7961,0.180630574,1318,8056,0.1636047666,-9.425762,-2.8543951909,0.0043118857,True
+4,channel,Social Search,new_accounts / session,new account,session,667,7961,0.0837834443,653,8056,0.0810575968,-3.253444,-0.6272408953,0.5305013401,False
+4,channel,Undefined,add_payment_info / session,add_payment_info,session,496,5716,0.0867739678,566,5862,0.0965540771,11.270787,1.8228123018,0.0683318239,False
+4,channel,Undefined,add_shipping_info / session,add_shipping_info,session,640,5716,0.1119664101,666,5862,0.1136131013,1.470701,0.2800263339,0.7794573013,False
+4,channel,Undefined,begin_checkout / session,begin_checkout,session,1578,5716,0.2760671798,1600,5862,0.2729443876,-1.131171,-0.3764543287,0.7065791629,False
+4,channel,Undefined,new_accounts / session,new account,session,484,5716,0.0846745976,510,5862,0.0870010235,2.74749,0.4467421295,0.6550612595,False
+4,continent,(not set),add_payment_info / session,add_payment_info,session,22,234,0.094017094,8,262,0.0305343511,-67.522554,-2.9607484444,0.0030689249,True
+4,continent,(not set),add_shipping_info / session,add_shipping_info,session,27,234,0.1153846154,14,262,0.0534351145,-53.689567,-2.5011491902,0.0123791018,True
+4,continent,(not set),begin_checkout / session,begin_checkout,session,59,234,0.2521367521,35,262,0.1335877863,-47.017725,-3.3629485973,0.0007711472,True
+4,continent,(not set),new_accounts / session,new account,session,15,234,0.0641025641,16,262,0.0610687023,-4.732824,-0.1393438754,0.8891784205,False
+4,continent,Africa,add_payment_info / session,add_payment_info,session,38,1096,0.0346715328,39,1086,0.0359116022,3.576621,0.1569719771,0.8752669333,False
+4,continent,Africa,add_shipping_info / session,add_shipping_info,session,39,1096,0.0355839416,57,1086,0.0524861878,47.499646,1.9248603148,0.0542468359,False
+4,continent,Africa,begin_checkout / session,begin_checkout,session,98,1096,0.0894160584,139,1086,0.1279926335,43.142782,2.8955912447,0.0037844499,True
+4,continent,Africa,new_accounts / session,new account,session,96,1096,0.0875912409,74,1086,0.0681399632,-22.206875,-1.6949513934,0.0900846419,False
+4,continent,Americas,add_payment_info / session,add_payment_info,session,2030,58053,0.0349680464,2032,58031,0.0350157674,0.13647,0.0442401313,0.9647129932,False
+4,continent,Americas,add_shipping_info / session,add_shipping_info,session,2818,58053,0.0485418497,2785,58031,0.0479915907,-1.133576,-0.4373625355,0.6618484497,False
+4,continent,Americas,begin_checkout / session,begin_checkout,session,6886,58053,0.1186157477,6929,58031,0.1194016991,0.662603,0.4135012179,0.6792394303,False
+4,continent,Americas,new_accounts / session,new account,session,4990,58053,0.0859559368,4836,58031,0.0833347693,-3.049432,-1.6041837551,0.1086735544,False
+4,continent,Asia,add_payment_info / session,add_payment_info,session,819,24908,0.0328810021,830,25165,0.0329823167,0.308125,0.0635186373,0.9493535188,False
+4,continent,Asia,add_shipping_info / session,add_shipping_info,session,1098,24908,0.0440822226,1124,25165,0.0446652096,1.322499,0.3167459451,0.7514363832,False
+4,continent,Asia,begin_checkout / session,begin_checkout,session,2694,24908,0.1081580215,2764,25165,0.1098350884,1.550571,0.6020920242,0.5471128833,False
+4,continent,Asia,new_accounts / session,new account,session,2164,24908,0.0868797174,2039,25165,0.0810252335,-6.738608,-2.3621868788,0.0181674815,True
+4,continent,Europe,add_payment_info / session,add_payment_info,session,747,19693,0.0379322602,654,19528,0.0334903728,-11.710052,-2.3699100888,0.0177924115,True
+4,continent,Europe,add_shipping_info / session,add_shipping_info,session,1055,19693,0.0535723353,917,19528,0.0469582138,-12.346151,-2.9971298508,0.002725346,True
+4,continent,Europe,begin_checkout / session,begin_checkout,session,2600,19693,0.1320266084,2263,19528,0.1158848832,-12.226115,-4.8498469314,1.2356e-06,True
+4,continent,Europe,new_accounts / session,new account,session,1642,19693,0.0833798812,1633,19528,0.083623515,0.292197,0.0872068733,0.9305070761,False
+4,continent,Oceania,add_payment_info / session,add_payment_info,session,75,1095,0.0684931507,38,1069,0.0355472404,-48.101029,-3.4443240156,0.0005724892,True
+4,continent,Oceania,add_shipping_info / session,add_shipping_info,session,91,1095,0.0831050228,59,1069,0.055191768,-33.587928,-2.5559929882,0.0105885253,True
+4,continent,Oceania,begin_checkout / session,begin_checkout,session,218,1095,0.199086758,137,1069,0.1281571562,-35.627483,-4.4547014362,8.401e-06,True
+4,continent,Oceania,new_accounts / session,new account,session,77,1095,0.0703196347,89,1069,0.0832553789,18.395636,1.1304833541,0.2582726087,False
+4,device,desktop,add_payment_info / session,add_payment_info,session,2211,61484,0.0359605751,2046,61436,0.0333029494,-7.390387,-2.5479337187,0.0108363058,True
+4,device,desktop,add_shipping_info / session,add_shipping_info,session,3042,61484,0.0494762865,2845,61436,0.0463083534,-6.402932,-2.6006302756,0.009305268,True
+4,device,desktop,begin_checkout / session,begin_checkout,session,7456,61484,0.1212673216,7026,61436,0.1143629143,-5.693543,-3.7542672275,0.0001738493,True
+4,device,desktop,new_accounts / session,new account,session,5314,61484,0.0864289897,5105,61436,0.0830946025,-3.85795,-2.098594889,0.0358526273,True
+4,device,mobile,add_payment_info / session,add_payment_info,session,1413,41216,0.0342828028,1501,41345,0.036304269,5.896444,1.5738700899,0.115517486,False
+4,device,mobile,add_shipping_info / session,add_shipping_info,session,1961,41216,0.0475786102,2023,41345,0.0489297376,2.839779,0.9057759427,0.3650544569,False
+4,device,mobile,begin_checkout / session,begin_checkout,session,4788,41216,0.1161684783,5009,41345,0.1211512879,4.289296,2.2136112542,0.0268555325,True
+4,device,mobile,new_accounts / session,new account,session,3455,41216,0.0838266693,3384,41345,0.0818478655,-2.36059,-1.0314003444,0.3023531194,False
+4,device,tablet,add_payment_info / session,add_payment_info,session,107,2379,0.044976881,54,2360,0.0228813559,-49.126406,-4.1980738281,2.69195e-05,True
+4,device,tablet,add_shipping_info / session,add_shipping_info,session,125,2379,0.0525430853,88,2360,0.0372881356,-29.03322,-2.5343131751,0.0112667988,True
+4,device,tablet,begin_checkout / session,begin_checkout,session,311,2379,0.1307271963,232,2360,0.0983050847,-24.801352,-3.503645987,0.000458935,True
+4,device,tablet,new_accounts / session,new account,session,215,2379,0.0903741068,198,2360,0.0838983051,-7.16555,-0.7902633366,0.4293739938,False
