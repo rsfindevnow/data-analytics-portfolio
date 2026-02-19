@@ -21,3 +21,6 @@ desktop.ini
 # Environment
 .env
 *.env
+
+# Raw data (large files — loaded directly from BigQuery)
+data/raw/*.csv
