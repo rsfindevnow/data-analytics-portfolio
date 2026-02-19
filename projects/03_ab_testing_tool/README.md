@@ -86,12 +86,12 @@ Interactive table displaying statistical significance for all 4 conversion metri
 
 | Test | Significant Metrics | Direction | Recommendation |
 |------|-------------------|-----------|----------------|
-| Test 1 | 1 of 4 (begin_checkout +27.5%) | Partially positive | Further analysis needed |
-| Test 2 | 1 of 4 (add_shipping_info -22.9%) | Negative | Do not implement |
-| **Test 3** | **2 of 4 (checkout +27%, payment +31.6%)** | **Positive** | **Implement** |
-| Test 4 | 2 of 4 (payment -36.6%, shipping -27.4%) | Negative | Reject |
+| **Test 1** | **3 of 4 (payment +12.5%, shipping +6.6%, checkout +6.7%)** | **Positive** | **Implement** |
+| Test 2 | 0 of 4 | Neutral | No effect detected — no action |
+| Test 3 | 1 of 4 (begin_checkout −3.4%) | Negative | Reject |
+| Test 4 | 2 of 4 (checkout −2.4%, new_accounts −3.4%) | Negative | Reject |
 
-**Test 3 is the only clearly successful experiment**, showing significant improvement in both checkout initiation and payment info submission — key stages of the conversion funnel.
+**Test 1 is the clear winner**, showing significant improvement across three key funnel stages — payment info, shipping info, and checkout initiation.
 
 For detailed interpretation, see [docs/results_interpretation.md](docs/results_interpretation.md).
 
@@ -113,8 +113,8 @@ For detailed interpretation, see [docs/results_interpretation.md](docs/results_i
 
 ### Python Notebook
 1. Open [notebooks/ab_test_significance.ipynb](notebooks/ab_test_significance.ipynb) in Google Colab
-2. Upload `data/raw/SQL_result_started_data_set.csv`
-3. Run all cells sequentially
+2. Run cell 1 — authenticate with your Google account
+3. Run all cells sequentially (data loads directly from BigQuery)
 4. Download the generated `ab_test_significance_results.csv`
 
 ### Tableau

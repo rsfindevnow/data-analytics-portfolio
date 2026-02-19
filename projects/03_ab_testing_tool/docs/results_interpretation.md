@@ -6,86 +6,90 @@
 
 | Metric | CR Control | CR Test | Change | p-value | Significant |
 |--------|-----------|---------|--------|---------|-------------|
-| add_payment_info / session | 5.73% | 6.18% | +7.7% | 0.601 | No |
-| add_shipping_info / session | 8.83% | 7.30% | -17.3% | 0.115 | No |
-| **begin_checkout / session** | **7.73%** | **9.86%** | **+27.5%** | **0.035** | **Yes** |
-| new_accounts / session | 9.02% | 8.67% | -3.9% | 0.730 | No |
+| **add_payment_info / session** | **4.38%** | **4.93%** | **+12.5%** | **0.000** | **Yes** |
+| **add_shipping_info / session** | **6.69%** | **7.13%** | **+6.6%** | **0.009** | **Yes** |
+| **begin_checkout / session** | **8.34%** | **8.90%** | **+6.7%** | **0.003** | **Yes** |
+| new_accounts / session | 8.43% | 8.15% | -3.4% | 0.123 | No |
 
-The test variant significantly **increased** the begin_checkout rate by 27.5%.
-Other metrics showed no statistically confirmed changes.
+The test variant significantly **increased** 3 out of 4 metrics. Payment info, shipping info,
+and checkout initiation rates all improved. Only new account creation showed no statistically confirmed change.
 
 ### Test 2
 
 | Metric | CR Control | CR Test | Change | p-value | Significant |
 |--------|-----------|---------|--------|---------|-------------|
-| add_payment_info / session | 5.03% | 3.96% | -21.3% | 0.125 | No |
-| **add_shipping_info / session** | **8.68%** | **6.70%** | **-22.9%** | **0.027** | **Yes** |
-| begin_checkout / session | 9.79% | 10.25% | +4.7% | 0.649 | No |
-| new_accounts / session | 7.91% | 8.04% | +1.6% | 0.888 | No |
+| add_payment_info / session | 4.63% | 4.79% | +3.6% | 0.215 | No |
+| add_shipping_info / session | 6.87% | 6.99% | +1.7% | 0.478 | No |
+| begin_checkout / session | 8.42% | 8.58% | +2.0% | 0.341 | No |
+| new_accounts / session | 8.23% | 8.33% | +1.2% | 0.556 | No |
 
-The test variant significantly **decreased** the add_shipping_info rate by 22.9%.
-This is a negative outcome — the changes worsened the conversion funnel.
+None of the 4 metrics reached statistical significance. All observed differences are within the range
+of random variation — the test had no measurable effect on user behavior.
 
 ### Test 3
 
 | Metric | CR Control | CR Test | Change | p-value | Significant |
 |--------|-----------|---------|--------|---------|-------------|
-| **add_payment_info / session** | **5.24%** | **6.89%** | **+31.6%** | **0.016** | **Yes** |
-| add_shipping_info / session | 6.03% | 6.36% | +5.5% | 0.632 | No |
-| **begin_checkout / session** | **12.19%** | **15.48%** | **+27.0%** | **0.001** | **Yes** |
-| new_accounts / session | 6.62% | 7.70% | +16.4% | 0.144 | No |
+| add_payment_info / session | 5.17% | 5.25% | +1.5% | 0.520 | No |
+| add_shipping_info / session | 7.56% | 7.37% | -2.6% | 0.157 | No |
+| **begin_checkout / session** | **13.61%** | **13.15%** | **-3.4%** | **0.012** | **Yes** |
+| new_accounts / session | 8.36% | 8.27% | -1.1% | 0.520 | No |
 
-The most successful test — **2 out of 4 metrics improved significantly**.
-Begin_checkout grew by +27% and add_payment_info by +31.6%.
-The changes positively impacted the conversion funnel.
+The test variant significantly **decreased** the begin_checkout rate by 3.4%.
+This is a negative outcome — the change reduced checkout initiation without any compensating improvements elsewhere.
 
 ### Test 4
 
 | Metric | CR Control | CR Test | Change | p-value | Significant |
 |--------|-----------|---------|--------|---------|-------------|
-| **add_payment_info / session** | **4.53%** | **2.87%** | **-36.6%** | **0.000** | **Yes** |
-| **add_shipping_info / session** | **5.94%** | **4.31%** | **-27.4%** | **0.002** | **Yes** |
-| begin_checkout / session | 10.91% | 9.86% | -9.6% | 0.145 | No |
-| new_accounts / session | 8.46% | 8.07% | -4.7% | 0.541 | No |
+| add_payment_info / session | 3.55% | 3.42% | -3.5% | 0.116 | No |
+| add_shipping_info / session | 4.88% | 4.71% | -3.4% | 0.074 | No |
+| **begin_checkout / session** | **11.95%** | **11.67%** | **-2.4%** | **0.046** | **Yes** |
+| **new_accounts / session** | **8.55%** | **8.26%** | **-3.4%** | **0.018** | **Yes** |
 
-The worst-performing test — **2 metrics dropped significantly**.
-The changes severely damaged the payment stages of the funnel.
+The test variant significantly **decreased** checkout initiation and new account creation.
+The changes negatively impacted top-of-funnel metrics.
 
 ## Significance Distribution by Dimension
 
 | Dimension | Significant | Total | Rate |
 |-----------|------------|-------|------|
 | Total | 6 | 16 | **37.5%** |
-| Device | 15 | 48 | 31.2% |
-| Continent | 31 | 96 | 32.3% |
-| Channel | 23 | 80 | **28.7%** |
+| Device | 17 | 48 | 35.4% |
+| Continent | 28 | 96 | 29.2% |
+| Channel | 32 | 80 | **40.0%** |
 
-~30-37% of all checks show statistical significance — this confirms that
+~30–40% of all checks show statistical significance — this confirms that
 the test variants produced **real, measurable changes** in user behavior,
 not random noise.
 
+Higher significance rate at **Channel level** (40.0%) suggests that
+the effects of test variants vary meaningfully by traffic source.
+
 ## Business Conclusions & Recommendations
 
-### 1. Implement Test 3 — Clear Winner
-- Two key funnel metrics improved significantly (+27% checkout, +32% payment)
-- No negative effects on other metrics
-- **Action:** Roll out Test 3 changes to 100% of traffic immediately
+### 1. Implement Test 1 — Clear Winner
+- Three key funnel stages improved significantly: payment (+12.5%), shipping (+6.6%), checkout (+6.7%)
+- No negative effects on any other metric
+- **Action:** Roll out Test 1 changes to 100% of traffic immediately
 
-### 2. Reject Test 4 — Clear Loser
-- Significant damage to payment (-36.6%) and shipping (-27.4%) stages
-- These are critical revenue-impacting steps in the funnel
+### 2. Reject Test 3 — Negative Impact
+- Checkout initiation declined by 3.4% — the only significant result
+- No compensating improvements elsewhere
+- **Action:** Do not implement; investigate what caused the checkout step decline
+
+### 3. Reject Test 4 — Negative Impact
+- Significant damage to checkout initiation (−2.4%) and new account creation (−3.4%)
+- Both are important top-of-funnel metrics
 - **Action:** Ensure Test 4 changes are fully reverted
 
-### 3. Reject Test 2 — Negative Impact
-- Shipping info step dropped by 22.9%
-- No compensating positive effects elsewhere
-- **Action:** Do not implement; investigate what caused the shipping step decline
-
-### 4. Investigate Test 1 — Mixed Signal
-- Checkout improved (+27.5%), but only 1 out of 4 metrics is significant
-- The effect is isolated — no downstream improvement in payment or shipping
-- **Action:** Run a follow-up test with larger sample size to confirm the effect before making a rollout decision
+### 4. No Action on Test 2 — No Effect Detected
+- Zero metrics reached statistical significance
+- All observed differences are within random variation
+- **Action:** No implementation decision possible; consider re-running with a refined hypothesis
 
 ### 5. Leverage Dimensional Insights
-- 31.2% significance at device level suggests **device-specific effects** that may warrant separate mobile vs desktop strategies
-- Channel-level analysis (28.7%) can inform **budget allocation** for paid vs organic traffic during future tests
+- 40.0% significance at channel level suggests **channel-specific effects** —
+  the impact of test changes varies by traffic source (paid vs organic vs direct)
+- 35.4% significance at device level may warrant **separate mobile vs desktop strategies**
+  before rolling out Test 1
